@@ -1,2 +1,5 @@
 language: java
+jdk:
+  - openjdk11
+before_install: gradle -b wrapper.gradle wrapper
 os: osx
